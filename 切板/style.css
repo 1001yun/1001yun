@@ -1,0 +1,194 @@
+html{
+    font-family: "PingFang TC", sans-serif;
+}
+
+a{
+    color: #3f5d45;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.menu a:hover{
+    background: #3f5d45;
+    color: white;
+}
+
+.banner{
+    height: 496px;
+    width: 100%;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    top: 40px;
+    right: 81px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside{
+    width: 300px;
+}
+
+.aside h2{
+    background: #3f5d45;
+    color: #fff;
+    line-height: 65px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.aside li{
+    margin-bottom: -1px;
+}
+
+.aside li a{
+    line-height: 65px;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border: 1px solid #eaf0ed;
+}
+
+.produstList{
+    width: 620px;
+}
+
+.produstList-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produstList-card li{
+    width: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.produstList-card .tag{
+    position: absolute;
+    background: #3f5d45;
+    color: #fff;
+    padding: 10px;
+    left: 20px;
+    top: 0;
+    letter-spacing: 5px;
+    writing-mode: vertical-lr;
+}
+
+.produstList-card .heart{
+    position: absolute;
+    font-size: 20px;
+    top: 19px;
+    right: 22px;
+    color: #3f5d45;
+}
+
+.produstList-card .produstList-card-body{
+    border-bottom: 1px solid #eaf0ed;
+    border-left: 1px solid #eaf0ed;
+    border-right: 1px solid #eaf0ed;
+    line-height: 65px;
+    display: flex;
+}
+
+.produstList-card .produstList-card-body h2{
+    margin: 0;
+    color: #3f5d45;
+    width: 173px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid #eaf0ed;
+}
+
+.produstList-card .produstList-card-body span{
+    color: #3f5d45;
+    width: 127px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.produstList-card .produstList-card-cart{
+    background: #eaf0ed;
+    line-height: 65px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pagintion{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagintion-list{
+    display: flex;
+}
+
+.pagintion-list a{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #eaf0ed;
+}
+
+.pagintion-list a:hover{
+    background: #3f5d45;
+    color: #fff;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
